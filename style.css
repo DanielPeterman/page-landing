@@ -1,118 +1,5 @@
-<<<<<<< HEAD
 * {
     margin:0;
-    padding:0;  
-  }
-  
-  .text-centered {
-    text-align: center;
-    padding-top: 18px;
-  }
-  
-  .text-rightside {
-    text-align: right;
-  }
-  
-  body {
-    position: relative;
-    font-family: "Goudy Bookletter 1911", sans-serif;
-    font-size: 20px;
-    background-color: #FDF8F5;
-    color: #4F4846;
-  }
-  
-  h1, h2 {
-    margin: 20px;
-  }
-  
-  main {
-    padding: 60px 0;
-  }
-  
-  li {
-    display: inline;
-    padding: 0px 20px;
-    text-decoration: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #FDF8F5;
-  }
-  
-  header, footer {
-    height: 60px;
-    width: 100%;
-    line-height: 60px;
-    background-color: #266150;
-  }
-  
-  header {
-    position: fixed;
-    border-bottom: 10px solid #DDAF94;
-  }
-  
-  footer {
-    position: absolute;
-    margin-top: 0;
-    bottom: 0;
-    border-bottom: 10px solid #4F4846;
-    color: #FDF8F5;    
-  }
-  
-  figure {
-    margin-bottom: 40px;
-  }
-  
-  img {
-    display: block;
-    margin: 20px auto;
-  }
-  
-  section {
-    margin-bottom: 0;
-    padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
-    background-color:  #E8CEBF;
-  }
-  
-  form {
-    margin: 0 auto;
-    width: 500px;
-    padding: 10px;
-    border: 5px solid #DDAF94;
-    border-radius: 20px;
-  }
-  
-  label {
-    display: inline-block;
-    width: 100px;
-  }
-    
-  input, textarea {
-    box-sizing: border-box;
-    width: 250px;
-    border: 1px solid #4F4846;
-  }
-  
-  textarea {
-    vertical-align: top;
-    height: 50px;
-  }
-    
-  button {
-    height: 40px;
-    width: 120px;
-    background-color: #4F4846;
-    color: #FDF8F5;
-    text-align: center;
-    margin-left:35px;
-  }
-   
-=======
-* {
-    margin:0;
-    padding:0;  
   }
   
   .text-center {
@@ -120,19 +7,29 @@
     padding-top: 18px;
   }
   
+  #caption {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
   .text-rightside {
     text-align: right;
   }
   
+  #contact {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
   body {
     position: relative;
-    font-family: "Goudy Bookletter 1911", sans-serif;
-    font-size: 20px;
-    background-color: #FDF8F5;
-    color: #4F4846;
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: white;
+    color: darkslategray;
   }
   
-  h1, h2 {
+  h1 {
     margin: 20px;
   }
   
@@ -148,26 +45,26 @@
   
   a {
     text-decoration: none;
-    color: #FDF8F5;
+    color: white;
   }
   
   header, footer {
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: #266150;
+    background-color: #1b5f4c;
   }
   
   header {
     position: fixed;
-    border-bottom: 10px solid #DDAF94;
+    border-bottom: 10px solid #dda889;
   }
   
   footer {
     position: absolute;
     margin-top: 0;
     bottom: 0;
-    border-bottom: 10px solid #4F4846;
+    border-bottom: 10px solid #443d3c;
     color: #FDF8F5;    
   }
   
@@ -183,15 +80,15 @@
   section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
-    background-color:  #E8CEBF;
+    border-top: 3px solid #ddb39b;
+    background-color:  #ddcabf;
   }
   
   form {
     margin: 0 auto;
     width: 500px;
     padding: 10px;
-    border: 5px solid #DDAF94;
+    border: 5px solid #d4ac95;
     border-radius: 20px;
   }
   
@@ -203,7 +100,7 @@
   input, textarea {
     box-sizing: border-box;
     width: 250px;
-    border: 1px solid #4F4846;
+    border: 1px solid #413c3b;
   }
   
   textarea {
@@ -214,10 +111,13 @@
   button {
     height: 40px;
     width: 120px;
-    background-color: #4F4846;
-    color: #FDF8F5;
+    background-color: #413b39;
+    color: white;
     text-align: center;
     margin-left:35px;
   }
-   
->>>>>>> d1cedda786a1fca994775cdf28ba9f7d206ce0c6
+  
+  #footer {
+    font-size: 14px;
+    text-align: center;
+  }
